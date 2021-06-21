@@ -1,0 +1,80 @@
+.header {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  width: 50%;
+  margin: 0;
+}
+
+/* Navigation Menu */
+nav {
+  width: 49%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.history {
+  background: url("./assets/about-us.jpeg") no-repeat;
+  background-position: center;
+  height: 400px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.item img {
+  width: 300px;
+  height: 250px;
+}
+
+.item-title {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+}
+
+footer nav {
+  text-align: right;
+}
